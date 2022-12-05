@@ -1,0 +1,307 @@
+:root{
+    --size: 15px;
+    --c01: black;
+    --c02: rgb(111, 11, 11);
+    --c03: rgb(129, 13, 20);
+    --c04: darkorange;
+    --c05: rgb(228, 131, 11);
+    --c06: white;
+        
+
+}
+
+body{
+    background-color: grey;
+}
+
+.box_fox{
+    width: calc(27 * var(--size));
+    height: calc(24 * var(--size));
+    background-color: rgb(112, 110, 110);
+    position: relative;
+}
+
+.fox{
+    width: var(--size);
+    height: var(--size);
+    background-color: transparent;
+    position: relative;
+    box-shadow: 
+        /* linha 1 */
+        calc(13 * var(--size)) calc(0 * var(--size)) var(--c01),
+        calc(14 * var(--size)) calc(0 * var(--size)) var(--c01),
+        calc(24 * var(--size)) calc(0 * var(--size)) var(--c01),
+        calc(25 * var(--size)) calc(0 * var(--size)) var(--c01),
+        /* linha 1 */
+        /* linha 2 */
+        calc(12 * var(--size)) calc(1 * var(--size)) var(--c01),
+        calc(13 * var(--size)) calc(1 * var(--size)) var(--c02),
+        calc(14 * var(--size)) calc(1 * var(--size)) var(--c02),
+        calc(15 * var(--size)) calc(1 * var(--size)) var(--c01),
+        calc(23 * var(--size)) calc(1 * var(--size)) var(--c01),
+        calc(24 * var(--size)) calc(1 * var(--size)) var(--c02),
+        calc(25 * var(--size)) calc(1 * var(--size)) var(--c02),
+        calc(26 * var(--size)) calc(1 * var(--size)) var(--c01),
+        /* linha 2 */
+        /* linha 3 */
+        calc(11 * var(--size)) calc(2 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(2 * var(--size)) var(--c02),
+        calc(13 * var(--size)) calc(2 * var(--size)) var(--c02),
+        calc(14 * var(--size)) calc(2 * var(--size)) var(--c02),
+        calc(15 * var(--size)) calc(2 * var(--size)) var(--c02),
+        calc(16 * var(--size)) calc(2 * var(--size)) var(--c01),
+        calc(22 * var(--size)) calc(2 * var(--size)) var(--c01),
+        calc(23 * var(--size)) calc(2 * var(--size)) var(--c02),
+        calc(24 * var(--size)) calc(2 * var(--size)) var(--c02),
+        calc(25 * var(--size)) calc(2 * var(--size)) var(--c02),
+        calc(26 * var(--size)) calc(2 * var(--size)) var(--c01),
+        /* linha 3*/
+        /* linha 4 */
+        calc(11 * var(--size)) calc(3 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(3 * var(--size)) var(--c02),
+        calc(13 * var(--size)) calc(3 * var(--size)) var(--c03),
+        calc(14 * var(--size)) calc(3 * var(--size)) var(--c03),
+        calc(15 * var(--size)) calc(3 * var(--size)) var(--c02),
+        calc(16 * var(--size)) calc(3 * var(--size)) var(--c04),
+        calc(17 * var(--size)) calc(3 * var(--size)) var(--c01),
+        calc(18 * var(--size)) calc(3 * var(--size)) var(--c01),
+        calc(19 * var(--size)) calc(3 * var(--size)) var(--c01),
+        calc(20 * var(--size)) calc(3 * var(--size)) var(--c01),
+        calc(21 * var(--size)) calc(3 * var(--size)) var(--c01),
+        calc(22 * var(--size)) calc(3 * var(--size)) var(--c02),
+        calc(23 * var(--size)) calc(3 * var(--size)) var(--c03),
+        calc(24 * var(--size)) calc(3 * var(--size)) var(--c03),
+        calc(25 * var(--size)) calc(3 * var(--size)) var(--c02),
+        calc(26 * var(--size)) calc(3 * var(--size)) var(--c01),
+        /* linha 4*/
+        /* linha 5 */
+        calc(11 * var(--size)) calc(4 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(4 * var(--size)) var(--c02),
+        calc(13 * var(--size)) calc(4 * var(--size)) var(--c03),
+        calc(14 * var(--size)) calc(4 * var(--size)) var(--c03),
+        calc(15 * var(--size)) calc(4 * var(--size)) var(--c03),
+        calc(16 * var(--size)) calc(4 * var(--size)) var(--c04),
+        calc(17 * var(--size)) calc(4 * var(--size)) var(--c04),
+        calc(18 * var(--size)) calc(4 * var(--size)) var(--c04),
+        calc(19 * var(--size)) calc(4 * var(--size)) var(--c04),
+        calc(20 * var(--size)) calc(4 * var(--size)) var(--c04),
+        calc(21 * var(--size)) calc(4 * var(--size)) var(--c05),
+        calc(22 * var(--size)) calc(4 * var(--size)) var(--c03),
+        calc(23 * var(--size)) calc(4 * var(--size)) var(--c03),
+        calc(24 * var(--size)) calc(4 * var(--size)) var(--c03),
+        calc(25 * var(--size)) calc(4 * var(--size)) var(--c02),
+        calc(26 * var(--size)) calc(4 * var(--size)) var(--c01),
+        /* linha 5*/
+        /* linha 6 */
+        calc(5 * var(--size)) calc(5 * var(--size)) var(--c01),
+        calc(6 * var(--size)) calc(5 * var(--size)) var(--c01),
+        calc(11 * var(--size)) calc(5 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(5 * var(--size)) var(--c02),
+        calc(13 * var(--size)) calc(5 * var(--size)) var(--c03),
+        calc(14 * var(--size)) calc(5 * var(--size)) var(--c03),
+        calc(15 * var(--size)) calc(5 * var(--size)) var(--c04),
+        calc(16 * var(--size)) calc(5 * var(--size)) var(--c04),
+        calc(17 * var(--size)) calc(5 * var(--size)) var(--c04),
+        calc(18 * var(--size)) calc(5 * var(--size)) var(--c04),
+        calc(19 * var(--size)) calc(5 * var(--size)) var(--c04),
+        calc(20 * var(--size)) calc(5 * var(--size)) var(--c04),
+        calc(21 * var(--size)) calc(5 * var(--size)) var(--c04),
+        calc(22 * var(--size)) calc(5 * var(--size)) var(--c05),
+        calc(23 * var(--size)) calc(5 * var(--size)) var(--c03),
+        calc(24 * var(--size)) calc(5 * var(--size)) var(--c03),
+        calc(25 * var(--size)) calc(5 * var(--size)) var(--c02),
+        calc(26 * var(--size)) calc(5 * var(--size)) var(--c01),
+        /* linha 6*/
+        /* linha 7 */
+        calc(4 * var(--size)) calc(6 * var(--size)) var(--c01),
+        calc(5 * var(--size)) calc(6 * var(--size)) var(--c06),
+        calc(6 * var(--size)) calc(6 * var(--size)) var(--c01),
+        calc(11 * var(--size)) calc(6 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(13 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(14 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(15 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(16 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(17 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(18 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(19 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(20 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(21 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(22 * var(--size)) calc(6 * var(--size)) var(--c04),
+        calc(23 * var(--size)) calc(6 * var(--size)) var(--c05),
+        calc(24 * var(--size)) calc(6 * var(--size)) var(--c05),
+        calc(25 * var(--size)) calc(6 * var(--size)) var(--c05),
+        calc(26 * var(--size)) calc(6 * var(--size)) var(--c01),
+        /* linha 7*/
+        /*linha 8*/
+        calc(3 * var(--size)) calc(7 * var(--size)) var(--c01),
+        calc(4 * var(--size)) calc(7 * var(--size)) var(--c06),
+        calc(5 * var(--size)) calc(7 * var(--size)) var(--c06),
+        calc(6 * var(--size)) calc(7 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(7 * var(--size)) var(--c01),
+        calc(13 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(14 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(15 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(16 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(17 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(18 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(19 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(20 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(21 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(22 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(23 * var(--size)) calc(7 * var(--size)) var(--c04),
+        calc(24 * var(--size)) calc(7 * var(--size)) var(--c05),
+        calc(25 * var(--size)) calc(7 * var(--size)) var(--c01),
+       /*linha 8*/
+        /*linha 9*/
+        calc(2 * var(--size)) calc(8 * var(--size)) var(--c01),
+        calc(3 * var(--size)) calc(8 * var(--size)) var(--c06),
+        calc(4 * var(--size)) calc(8 * var(--size)) var(--c06),
+        calc(5 * var(--size)) calc(8 * var(--size)) var(--c06),
+        calc(6 * var(--size)) calc(8 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(8 * var(--size)) var(--c01),
+        calc(13 * var(--size)) calc(8 * var(--size)) var(--c04),
+        calc(14 * var(--size)) calc(8 * var(--size)) var(--c04),
+        calc(15 * var(--size)) calc(8 * var(--size)) var(--c01),
+        calc(16 * var(--size)) calc(8 * var(--size)) var(--c01),
+        calc(17 * var(--size)) calc(8 * var(--size)) var(--c04),
+        calc(18 * var(--size)) calc(8 * var(--size)) var(--c04),
+        calc(19 * var(--size)) calc(8 * var(--size)) var(--c04),
+        calc(20 * var(--size)) calc(8 * var(--size)) var(--c04),
+        calc(21 * var(--size)) calc(8 * var(--size)) var(--c01),
+        calc(22 * var(--size)) calc(8 * var(--size)) var(--c01),
+        calc(23 * var(--size)) calc(8 * var(--size)) var(--c04),
+        calc(24 * var(--size)) calc(8 * var(--size)) var(--c05),
+        calc(25 * var(--size)) calc(8 * var(--size)) var(--c01),
+       /*linha 9*/
+        /*linha 10*/
+        calc(2 * var(--size)) calc(9 * var(--size)) var(--c01),
+        calc(3 * var(--size)) calc(9 * var(--size)) var(--c06),
+        calc(4 * var(--size)) calc(9 * var(--size)) var(--c06),
+        calc(5 * var(--size)) calc(9 * var(--size)) var(--c06),
+        calc(5 * var(--size)) calc(9 * var(--size)) var(--c06),
+        calc(6 * var(--size)) calc(9 * var(--size)) var(--c06),
+        calc(7 * var(--size)) calc(9 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(9 * var(--size)) var(--c01),
+        calc(13 * var(--size)) calc(9 * var(--size)) var(--c04),
+        calc(14 * var(--size)) calc(9 * var(--size)) var(--c04),
+        calc(15 * var(--size)) calc(9 * var(--size)) var(--c06),
+        calc(16 * var(--size)) calc(9 * var(--size)) var(--c01),
+        calc(17 * var(--size)) calc(9 * var(--size)) var(--c05),
+        calc(18 * var(--size)) calc(9 * var(--size)) var(--c05),
+        calc(19 * var(--size)) calc(9 * var(--size)) var(--c05),
+        calc(20 * var(--size)) calc(9 * var(--size)) var(--c04),
+        calc(21 * var(--size)) calc(9 * var(--size)) var(--c06),
+        calc(22 * var(--size)) calc(9 * var(--size)) var(--c01),
+        calc(23 * var(--size)) calc(9 * var(--size)) var(--c04),
+        calc(24 * var(--size)) calc(9 * var(--size)) var(--c05),
+        calc(25 * var(--size)) calc(9 * var(--size)) var(--c01),
+       /*linha 10*/
+       /*linha 11*/
+        calc(11 * var(--size)) calc(10 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(10 * var(--size)) var(--c04),
+        calc(13 * var(--size)) calc(10 * var(--size)) var(--c04),
+        calc(14 * var(--size)) calc(10 * var(--size)) var(--c04),
+        calc(15 * var(--size)) calc(10 * var(--size)) var(--c01),
+        calc(16 * var(--size)) calc(10 * var(--size)) var(--c01),
+        calc(17 * var(--size)) calc(10 * var(--size)) var(--c05),
+        calc(18 * var(--size)) calc(10 * var(--size)) var(--c01),
+        calc(19 * var(--size)) calc(10 * var(--size)) var(--c05),
+        calc(20 * var(--size)) calc(10 * var(--size)) var(--c04),
+        calc(21 * var(--size)) calc(10 * var(--size)) var(--c01),
+        calc(22 * var(--size)) calc(10 * var(--size)) var(--c01),
+        calc(23 * var(--size)) calc(10 * var(--size)) var(--c04),
+        calc(24 * var(--size)) calc(10 * var(--size)) var(--c05),
+        calc(25 * var(--size)) calc(10 * var(--size)) var(--c05),
+        calc(26 * var(--size)) calc(10 * var(--size)) var(--c01),
+       /*linha 11*/
+       /*linha 12*/
+        calc(11 * var(--size)) calc(11 * var(--size)) var(--c01),
+        calc(12 * var(--size)) calc(11 * var(--size)) var(--c04),
+        calc(13 * var(--size)) calc(11 * var(--size)) var(--c04),
+        calc(14 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(15 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(16 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(17 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(18 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(19 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(20 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(21 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(22 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(23 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(24 * var(--size)) calc(11 * var(--size)) var(--c06),
+        calc(25 * var(--size)) calc(11 * var(--size)) var(--c05),
+        calc(26 * var(--size)) calc(11 * var(--size)) var(--c01),
+       /*linha 12*/
+       /*linha 13*/
+        calc(12 * var(--size)) calc(12 * var(--size)) var(--c01),
+        calc(13 * var(--size)) calc(12 * var(--size)) var(--c04),
+        calc(14 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(15 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(16 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(17 * var(--size)) calc(12 * var(--size)) var(--c01),
+        calc(18 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(19 * var(--size)) calc(12 * var(--size)) var(--c01),
+        calc(20 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(21 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(22 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(23 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(24 * var(--size)) calc(12 * var(--size)) var(--c06),
+        calc(25 * var(--size)) calc(12 * var(--size)) var(--c01),
+       /*linha 13*/
+       /*linha 14*/
+        calc(13 * var(--size)) calc(13 * var(--size)) var(--c01),
+        calc(14 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(15 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(16 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(17 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(18 * var(--size)) calc(13 * var(--size)) var(--c01),
+        calc(19 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(20 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(21 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(22 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(23 * var(--size)) calc(13 * var(--size)) var(--c06),
+        calc(24 * var(--size)) calc(13 * var(--size)) var(--c01),
+       /*linha 14*/
+       /*linha 15*/
+       
+        calc(14 * var(--size)) calc(14 * var(--size)) var(--c01),
+        calc(15 * var(--size)) calc(14 * var(--size)) var(--c01),
+        calc(16 * var(--size)) calc(14 * var(--size)) var(--c06),
+        calc(17 * var(--size)) calc(14 * var(--size)) var(--c06),
+        calc(18 * var(--size)) calc(14 * var(--size)) var(--c06),
+        calc(19 * var(--size)) calc(14 * var(--size)) var(--c06),
+        calc(20 * var(--size)) calc(14 * var(--size)) var(--c06),
+        calc(21 * var(--size)) calc(14 * var(--size)) var(--c06),
+        calc(22 * var(--size)) calc(14 * var(--size)) var(--c01),
+        calc(23 * var(--size)) calc(14 * var(--size)) var(--c01)
+       /*linha 14*/
+    ;
+}
+
+.f-01{
+	width: var(--pixelSize2);
+	height: var(--pixelSize2);
+	background-color: transparent;
+	position: absolute; 
+	display: block;
+	box-shadow:
+		/*linha 0*/ 
+		/*linha 1*/ 
+		/*linha 2*/ 
+		calc(18px * var(--pixelSize)) calc(2px * var(--pixelSize)) var(--c01), 
+		calc(19px * var(--pixelSize)) calc(2px * var(--pixelSize)) var(--c01), 
+		calc(20px * var(--pixelSize)) calc(2px * var(--pixelSize)) var(--c01), 
+		calc(21px * var(--pixelSize)) calc(2px * var(--pixelSize)) var(--c01), 
+		calc(22px * var(--pixelSize)) calc(2px * var(--pixelSize)) var(--c01), 
+		/*linha 3*/ 
+		calc(17px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c01), 
+		calc(18px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c02), 
+		calc(19px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c03), 
+		calc(20px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c03), 
+		calc(21px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c03), 
+		calc(22px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c02), 
+		calc(23px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c01), 
+		calc(24px * var(--pixelSize)) calc(3px * var(--pixelSize)) var(--c01)
+    ;
+}
